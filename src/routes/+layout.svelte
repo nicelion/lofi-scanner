@@ -1,7 +1,12 @@
 <script>
     import "../app.css";
 </script>
-  
+
+<svelte:head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4487298036056646"
+     crossorigin="anonymous"></script>
+</svelte:head>
+
 <div class="w-screen h-screen flex justify-center items-center">
     <div class="w-full h-full relative z-0 overflow-hidden">
         <img src="/police-lights-night.jpg" alt="" class="w-full h-full blur-md brightness-50 object-fill">

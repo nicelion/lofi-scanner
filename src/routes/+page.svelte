@@ -23,8 +23,8 @@
     let musicVolume = 50
 
     let station: Station = Stations[Math.floor(Math.random() * Stations.length)];
-    let song = musicOptions[Math.floor(Math.random() * Stations.length)];
-    
+    let song = musicOptions[Math.floor(Math.random() * musicOptions.length)];    
+
     const controlAudio = () => {
         if (playState == PlayState.playing) {
             audioElement.volume = 0
@@ -83,6 +83,8 @@
     }
 
     onMount(async () => { 
+
+
         addAudioPlayers()
 
         musicElement.onended = () => {

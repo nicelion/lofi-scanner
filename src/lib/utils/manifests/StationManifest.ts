@@ -32,5 +32,21 @@ export const Stations: [Station] = [
         name: "Indianapolis Metropolitan Police",
         id: 32602,
         location: "Indianapolis, Indiana"
+    },
+    {
+        name: "Myrtle Beach Fire Rescue",
+        id: 25648,
+        location: "Myrtle Beach, SC"
+    },
+    {
+        name: "York County Sheriff Dispatch",
+        id: 25969,
+        location: "York, SC"
+    }, 
+    {
+        name: "Spartanburg City Police and County Sheriff",
+        id: 30597,
+        location: "Spartanburg, SC"
     }
+
 ]
