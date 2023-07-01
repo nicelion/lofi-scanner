@@ -1,17 +1,30 @@
-# sveltekit-tailwind-starter-template
+# lofi-scanner
 
-Everything you need to build a Svelte project with TailwindCSS. This is a starter template for a barebones SvelteKit app that implements Tailwind
+This project is inspired by [lofiatc](https://www.lofiatc.com/?icao=kjfk), but instead uses public safety radios. This is quite a simple project at this point. To be honest, I threw it together in a few hours and this is certainly not my best code. I welcome anyone to contribute! This could be a great first project to contribute to!
 
-## Installing
+## Contributing
 
-You can install this template at any directory you would like. Simply, you can do a `git clone` on this repository.
+As I mentioned, I threw this together rather quickly and a LOT of improvements need to be made. There isn't much documentation either, but not a ton of code so you will probably get a good idea of what is happening just by looking at it.
 
-The best way to get this template on your machine is a tool called [degit](https://github.com/Rich-Harris/degit). 
+I welcome ANYONE to submit a pull request to this project! It would be super fun to collaborate with some new folks. Add your local public safety scanner to the StationManifest.ts and it will appear in the rotation.
 
-After you have installed `degit` on your machine, simply run the command `degit nicelion/sveltekit-tailwind-starter-template my-new-project` to install it in a new directory "my-new-project". When using `degit`, the files in the main repo are copied into the directory you specify, without the git history.
+### Things you could add
+
+- Add new stations
+- Add ability to change stations
+- Add ability to change songs
+- Search for available stations
+- Error handling for stations that are down
+- Whatever you can think of!
+- Someone please help me with support on iOS Safari
+
+Any questions, message me on [Twitter @ thompson\_\_ian](https://www.twitter.com/thompson__ian) or email me at ianthompson@nicelion.com. Or create an issue here on GitHub.
+
+## Run on your own
+
+First, clone this repo to your machine.
 
 ### How to run on localhost
-After you have cloned or scaffolded this repo using degit...
 
 Install dependencies:
 

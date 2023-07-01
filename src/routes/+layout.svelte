@@ -14,7 +14,8 @@
             <div class="redlight"></div>
             <div class="bluelight"></div>
         </div>      
-        <div class="absolute inset-0 flex flex-col justify-center items-center z-10 w-full h-full w-full">
+        <div class="absolute inset-0 flex flex-col justify-center items-center z-10 w-full h-full">
+            <div class="text-xs pt-3 italic">This site has unpredictable behavior on iOS Safari.</div>
             <main class="mt-auto">
                 <slot></slot>
             </main>
